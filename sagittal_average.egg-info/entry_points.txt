@@ -1,0 +1,3 @@
+[console_scripts]
+sagverage = sagittal_average.command:process
+
