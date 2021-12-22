@@ -21,4 +21,5 @@ def test_average():
 
     # Check result
     result = np.loadtxt(TEST_DIR / "brain_average.csv",  delimiter=',')
-    np.testing.assert_array_equal(result, expected)
+    np.testing.assert_array_equal(result, expected) 
+    #testing.assert_array_equal(x, y, err_msg='', verbose=True)
